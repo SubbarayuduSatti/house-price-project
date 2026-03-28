@@ -32,5 +32,5 @@ stages:
       - models
       - data/transformed/X_test.csv
       - data/transformed/y_test.csv
-    outs:
+    metrics:
       - metrics.json
